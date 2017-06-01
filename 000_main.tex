@@ -1,0 +1,97 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{csquotes}
+\usepackage[danish]{babel}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{pdfpages}
+\usepackage{subcaption}
+
+\usepackage{url}
+ \usepackage{multicol}
+\usepackage{hyperref}
+\usepackage{cleveref}
+\usepackage{natbib}
+
+\usepackage{comment}
+
+\usepackage{subcaption}
+\usepackage{verbatim}
+\usepackage{textcomp}
+
+
+
+
+\title{Logbog \\ Social \& Æstetisk Interaktion}
+\author{Karl-Emil Bilstrup, 201405858\\
+Nicklas Nielsen, 201370312\\
+Magnus Høholt, 201408770}
+\date{\today}
+
+% TIL 3D: Skriv mere på intro. Skriv kort afsnit om teknologi. Revider konklusion. Læs det hele igennem og se om du er tilfreds. Husk billeder.
+
+
+% Noter til eksperiementer:
+% Nuancerne ind i mellem. Lukkede af for omverdenen.
+% De mistede alle fornemmelsen for tid.
+% Forskellen mellem det abstrakte og konkrete 
+% The uncanny valley?
+% 3D verdenen blev men kameraet tiltede - især i tredje eksperiment
+% Lyset i loftet - hvorfor så de det ikke?
+% Kinect tracking blev mere og mere off
+% Kinect skulle tracke kroppen først (T-form)
+% Man kunne stjæle kroppe i forsøg 2 med Kinecten
+% Sværere at tracke (ifht. kinect) når man sidder ned.
+%   --> vi rykkede kinecten for at få bedre tracking
+%   --> evt. flere kinects
+% Heine kiggede ned af fordi HMD'en mistede tracking.
+%   --> Der kan kun være 2 lighthouses
+% Var det underligt at vi stod flere der inde?
+%   --> Kun Jesper der spurgte.
+%   --> De andre kommenterede ikke på det.
+% VIVE'en er tung og det var forstyrrende.
+% Spørgsmål er fra Vitmer - den Jonas snakkede om.
+%   --> Brugt første skema 
+
+
+% dNæNæ Latex-Template
+% 
+% Opret ny .tex fil til dit afsnit
+% Brug \input{'filnavn'} for at indsætte fil
+% Start filen med \Section{'Overskrift'}
+% (De ovenstående ting er ordnet til EkspSys Afl.1)
+% Skriv LaTeX som du ellers ville have gjort, men inde i filen
+%
+% Hvert afsnit bør (ifølge Kasper) opbygges således:
+% 
+% 1: Introduktion til metoden
+% 2: Brug af metoden
+% 3: Findings ved metoden
+% 4: Metodekritik
+%
+% Jeg foreslår at afsnit 2-4 får egen subsection,
+% men introduktion (på 2 linjer) skrives før første subsection.
+%
+% Vi forsøger så vidt muligt at undgår at skrive "vi", "os" og % så videre 
+%
+% Let the magic begin
+
+\begin{document}
+
+\maketitle
+
+\setcounter{tocdepth}{2}
+
+%\tableofcontents
+
+\input{01_koncept}
+\input{02_relevans}
+\input{03_designintention}
+\input{04_designproces}
+\input{05_diskussion}
+
+\setcitestyle{authoryear,open={[},close={]}}
+
+\bibliography{mybib.bib}{}
+\bibliographystyle{plainnat}
+\end{document}
